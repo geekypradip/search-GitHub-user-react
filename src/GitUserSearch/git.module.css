@@ -1,0 +1,84 @@
+body {
+  margin: auto;
+  background-image: url("https://github.githubassets.com/images/modules/site/social-cards/github-social.png");
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.507);
+  height: 100vh;
+  color: #fff;
+  padding: 10px;
+}
+.searchHolder {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+.searchHolder > input {
+  flex-basis: 60%;
+  background: rgb(206, 204, 206);
+}
+.searchHolder > * {
+  margin: 1%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+.userCard {
+  background: rgba(126, 210, 231, 0.658);
+  flex-basis: 15%;
+  margin-top: 1px;
+  padding: 10px;
+  margin: 0.5rem;
+}
+.avatarHolder {
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.avatarHolder > img {
+  width: 60%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.userName {
+  font-weight: bold;
+  letter-spacing: 5px;
+  background: rgba(255, 255, 255, 0.205);
+
+  text-align: center;
+  width: 100%;
+}
+.userPhotoAndName {
+  display: flex;
+  flex-direction: column;
+}
+.userPhotoAndName > * {
+  margin: 1%;
+}
+.allCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+/* avatar_url: "https://avatars.githubusercontent.com/u/1836624?v=4"
+events_url: "https://api.github.com/users/hello/events{/privacy}"
+followers_url: "https://api.github.com/users/hello/followers"
+following_url: "https://api.github.com/users/hello/following{/other_user}"
+gists_url: "https://api.github.com/users/hello/gists{/gist_id}"
+gravatar_id: ""
+html_url: "https://github.com/hello"
+id: 1836624
+login: "hello"
+node_id: "MDEyOk9yZ2FuaXphdGlvbjE4MzY2MjQ="
+organizations_url: "https://api.github.com/users/hello/orgs"
+received_events_url: "https://api.github.com/users/hello/received_events"
+repos_url: "https://api.github.com/users/hello/repos"
+score: 1
+site_admin: false
+starred_url: "https://api.github.com/users/hello/starred{/owner}{/repo}"
+subscriptions_url: "https://api.github.com/users/hello/subscriptions"
+type: "Organization"
+url: "https://api.github.com/users/hello" */
