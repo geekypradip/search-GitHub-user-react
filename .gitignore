@@ -30,3 +30,6 @@ src/ComponentsTodo
 # src/GitUserSearch
 src/StyledComponents
 src/Car
+
+# database
+carData.json
